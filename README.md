@@ -33,4 +33,32 @@ The tool is built around 4 functions that form a clean pipeline:
 ## Analysis
 **AAPL** — Best risk-adjusted performance of the group with a Sharpe ratio of 2.07. Lowest volatility at 19.95% and rolling volatility trended downward through the year, indicating increasing market stability. VaR of -1.72% and max drawdown of -14.93% reflect limited downside risk.
 
-**TSLA** — Highest raw return at 98.1% but nearly 3x Apple's volatility at 52.65%. Max drawdown of -32.72% means at its worst point Tesla had lost nearly a third of its peak value. A VaR of -5.01% means on a bad d
+**TSLA** — Highest raw return at 98.1% but nearly 3x Apple's volatility at 52.65%. Max drawdown of -32.72% means at its worst point Tesla had lost nearly a third of its peak value. A VaR of -5.01% means on a bad day Tesla could lose 3x more than Apple. High risk, high reward.
+
+**GOOGL** — Lowest Sharpe ratio of the group at 1.48, meaning it delivered the least return per unit of risk. Max drawdown of -17.27% and mid-year volatility spikes visible in the rolling chart.
+
+**MSFT** — Most stable stock in the group with the smallest max drawdown of -12.99%. Closely mirrored Apple in return (49.69%) but with slightly higher volatility (25.12%), giving it a Sharpe of 1.78. Best stock for a risk-averse investor seeking steady growth.
+
+**Summary** — For a risk-conscious investor in 2023, Apple offered the best risk-adjusted return while Microsoft offered the smoothest ride with the smallest drawdown. Tesla was a high risk, high reward bet. Google was the weakest on a risk-adjusted basis despite solid returns.
+
+## Key Concepts
+- **Volatility** — measures how much a stock's price fluctuates. Higher volatility = more risk
+- **Sharpe Ratio** — measures return earned per unit of risk. Above 1 is good, above 2 is excellent
+- **Value at Risk (VaR)** — the worst expected daily loss 95% of the time
+- **Max Drawdown** — the worst peak to trough loss over the entire period
+- **Rolling Volatility** — shows how risk changed over time rather than a single average number
+- **Cumulative Returns** — shows how $1 invested would have grown over the period
+
+## Skills Used
+- Python, pandas, numpy, matplotlib, yfinance
+- Time series analysis and financial data processing
+- Risk metrics: Volatility, Sharpe Ratio, Value at Risk, Max Drawdown
+- Data visualization and chart generation
+- Modular code design using functions
+
+## Libraries Required
+## Future Improvements
+- Build an interactive Streamlit dashboard
+- Add benchmark comparison against S&P 500
+- Expand to portfolio-level risk analysis across multiple assets
+- Add correlation matrix between stocks
