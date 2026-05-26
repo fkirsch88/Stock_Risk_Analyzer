@@ -1,4 +1,5 @@
 # Stock Risk Analyzer
+🔗 [Live Demo](https://stockriskanalyzer-6pmm3dkrwmks2bbgsujfmu.streamlit.app)
 
 A Python tool that downloads historical stock data and calculates key risk metrics used in quantitative finance. Built as a first project to learn financial data analysis and risk modeling using real market data.
 
